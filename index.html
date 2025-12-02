@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Trushkin RP | GTA 5 Roleplay</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-car"></i>
+            <h1>La Trushkin RP</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#features">Особенности</a></li>
+                <li><a href="#rules">Правила</a></li>
+                <li><a href="#connect">Подключиться</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Погрузись в реалистичный мир Ля-Турушкина</h2>
+            <p>Самый популярный ролевой сервер GTA 5 с тысячами активных игроков. Стань полицейским, врачом, таксистом или мафиози в самом реалистичном RP-мире!</p>
+            <div class="hero-buttons">
+                <a href="#connect" class="btn">Подключиться</a>
+                <a href="#rules" class="btn btn-outline">Правила</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="section-title">
+            <h2>Особенности сервера</h2>
+            <p>Наш сервер предлагает уникальный игровой опыт с продуманной экономикой и реалистичными механиками</p>
+        </div>
+        <div class="features">
+            <div class="feature-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Реалистичная полиция</h3>
+                <p>Полноценная система правоохранительных органов с патрулированием, задержаниями и судами</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-hospital"></i>
+                <h3>Медицинская система</h3>
+                <p>Работай врачом в больнице, спасай жизни и зарабатывай на лечение граждан</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-building"></i>
+                <h3>Бизнес и экономика</h3>
+                <p>Открывай свой бизнес, нанимай сотрудников и строй империю в Лос-Сантосе</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="rules">
+        <div class="section-title">
+            <h2>Основные правила</h2>
+            <p>Соблюдение правил обязательно для всех игроков без исключения</p>
+        </div>
+        <div class="rules">
+            <div class="rules-list">
+                <div class="rule-item">
+                    <h4>Нет метагеймингу</h4>
+                    <p>Запрещено использовать информацию, полученную вне игры (OOC)</p>
+                </div>
+                <div class="rule-item">
+                    <h4>Нет RDM</h4>
+                    <p>Случайные убийства без причины строго запрещены</p>
+                </div>
+                <div class="rule-item">
+                    <h4>Ролевая игра</h4>
+                    <p>Все действия должны соответствовать выбранной роли и ситуации</p>
+                </div>
+                <div class="rule-item">
+                    <h4>Уважение</h4>
+                    <p>Уважительное отношение ко всем игрокам и администраторам</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta" id="connect">
+        <h2>Готов начать свою историю в Лос-Сантосе?</h2>
+        <p>Присоединяйся к тысячам игроков, которые уже создают свои уникальные истории в нашем ролевом мире</p>
+        <a target="_blank" href="https://majestic-rp.ru/" class="btn">Подключиться к серверу</a>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-discord"></i></a>
+            <a href="#"><i class="fab fa-telegram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitch"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Los Santos RP. Этот сайт не аффилирован с Rockstar Games. GTA 5 является собственностью Rockstar Games.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
